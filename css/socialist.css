@@ -1,0 +1,30 @@
+.mod-socialist .line a {
+    display: block;
+    height: 16px;
+    opacity: 0.5;
+    width: 16px;
+}
+.mod-socialist .line a:hover {
+	opacity: 1;
+}
+.mod-socialist .line .facebook a {
+	background: url("/modules/socialist/images/icons16x16.png") no-repeat scroll 0 0 transparent;
+}
+.mod-socialist .line .twitter a {
+	background: url("/modules/socialist/images/icons16x16.png") no-repeat scroll -17px 0 transparent;
+}
+.mod-socialist .line .googleplus a {
+	background: url("/modules/socialist/images/icons16x16.png") no-repeat scroll -34px 0 transparent;
+}
+.mod-socialist .line .vkontakte a {
+	background: url("/modules/socialist/images/icons16x16.png") no-repeat scroll -51px 0 transparent;
+}
+
+
+.mod-socialist .line .twitter,
+.mod-socialist .line .facebook,
+.mod-socialist .line .googleplus,
+.mod-socialist .line .vkontakte {
+	float: left;
+	margin-right: 5px;
+}
