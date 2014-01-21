@@ -10,7 +10,7 @@
 class SocialistModule extends Ab_Module {
 	
 	public function __construct(){
-		$this->version = "0.1";
+		$this->version = "0.1.1-dev";
 		$this->name = "socialist";
 		$this->takelink = "socialist";
 		$this->permission = new SocialistPermission($this);
