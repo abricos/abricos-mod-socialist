@@ -1,6 +1,5 @@
 <?php 
 /**
- * @version $Id$
  * @package Abricos
  * @subpackage Socialist
  * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL, see LICENSE.php
@@ -10,7 +9,7 @@
 class SocialistModule extends Ab_Module {
 	
 	public function __construct(){
-		$this->version = "0.1.1-dev";
+		$this->version = "0.1.1";
 		$this->name = "socialist";
 		$this->takelink = "socialist";
 		$this->permission = new SocialistPermission($this);
