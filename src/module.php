@@ -7,6 +7,8 @@
  */
 
 class SocialistModule extends Ab_Module {
+
+    private $_manager = null;
 	
 	public function __construct(){
 		$this->version = "0.1.1";
