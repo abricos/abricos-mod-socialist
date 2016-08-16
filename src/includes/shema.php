@@ -17,5 +17,3 @@ $pfx = $db->prefix;
 if ($updateManager->isInstall()){
 	Abricos::GetModule('socialist')->permission->Install();
 }
-
-?>

@@ -99,5 +99,3 @@ class SocialistManager extends Ab_ModuleManager {
 	}
 	
 }
-
-?>
