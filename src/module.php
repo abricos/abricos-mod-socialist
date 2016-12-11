@@ -1,43 +1,27 @@
 <?php
-
 /**
  * @package Abricos
  * @subpackage Socialist
- * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL, see LICENSE.php
+ * @copyright 2008-2016 Alexander Kuzmin
+ * @license http://opensource.org/licenses/mit-license.php MIT License
  * @author Alexander Kuzmin <roosit@abricos.org>
  */
+
+/**
+ * Class SocialistModule
+ */
 class SocialistModule extends Ab_Module {
-
-    private $_manager = null;
-
     public function __construct(){
-        $this->version = "0.1.1";
+        $this->version = "0.1.2";
         $this->name = "socialist";
         $this->takelink = "socialist";
         $this->permission = new SocialistPermission($this);
     }
-
-    /**
-     * Получить менеджер
-     *
-     * @return SocialistManager
-     */
-    public function GetManager(){
-        if (is_null($this->_manager)){
-            require_once 'includes/manager.php';
-            $this->_manager = new SocialistManager($this);
-        }
-        return $this->_manager;
-    }
-
 }
-
 
 class SocialistAction {
     const VIEW = 10;
-
     const WRITE = 30;
-
     const ADMIN = 50;
 }
 
