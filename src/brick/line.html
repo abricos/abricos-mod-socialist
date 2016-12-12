@@ -1,22 +1,35 @@
 <!--[*]
 [mcss=socialist]socialist.css[/mcss]
 [*]-->
-<div class="aw-socialist">
-	<div class="line">
-		<div class="facebook">
-			<a href="https://www.facebook.com/sharer/sharer.php?u={v#url}" title="Опубликовать ссылку в Facebook" onclick="window.open(this.href, 'Опубликовать ссылку в Facebook', 'width=640,height=436,toolbar=0,status=0'); return false"></a>
-		</div>
-
-		<div class="twitter">
-			<a href="http://twitter.com/intent/tweet?text={v#titleuri}+{v#url}" title="Опубликовать ссылку в Twitter" target="_blank"></a>
-		</div>
-		
-		<div class="googleplus">
-			<a href="https://plus.google.com/share?url={v#url}" title="Опубликовать ссылку в Google Plus" onclick="window.open(this.href, 'Опубликовать ссылку в Google Plus', 'width=800,height=300'); return false"></a>
-		</div>	
-	
-		<div class="vkontakte">
-			<a href="http://vkontakte.ru/share.php?url={v#url}" title="Опубликовать ссылку в ВКонтакте" onclick="window.open(this.href, 'Опубликовать ссылку в Вконтакте', 'width=800,height=300'); return false"></a>
-		</div>
-	</div>
+<div class="aw-socialist socialButtons">
+    <ul class="list-inline">
+        <li class="facebook">
+            <a href="https://www.facebook.com/sharer/sharer.php?u={v#url}"
+               title="Опубликовать ссылку в Facebook"
+               onclick="window.open(this.href, 'Опубликовать ссылку в Facebook', 'width=640,height=436,toolbar=0,status=0'); return false">
+                <i class="fa fa-facebook-square"></i>
+            </a>
+        </li>
+        <li class="twitter">
+            <a href="http://twitter.com/intent/tweet?text={v#titleuri}+{v#url}"
+               title="Опубликовать ссылку в Twitter"
+               target="_blank">
+                <i class="fa fa-twitter-square"></i>
+            </a>
+        </li>
+        <li class="googleplus">
+            <a href="https://plus.google.com/share?url={v#url}"
+               title="Опубликовать ссылку в Google Plus"
+               onclick="window.open(this.href, 'Опубликовать ссылку в Google Plus', 'width=800,height=300'); return false">
+                <i class="fa fa-google-plus-square"></i>
+            </a>
+        </li>
+        <li class="vk">
+            <a href="http://vkontakte.ru/share.php?url={v#url}"
+               title="Опубликовать ссылку во ВКонтакте"
+               onclick="window.open(this.href, 'Опубликовать ссылку во Вконтакте', 'width=800,height=300'); return false">
+                <i class="fa fa-vk"></i>
+            </a>
+        </li>
+    </ul>
 </div>
